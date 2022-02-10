@@ -1,0 +1,629 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+}
+
+/* MENU */
+
+.navbar {
+    background-color: #FAFAFA;
+}
+
+.loc {
+    color: black;
+}
+
+.procura {
+    border-radius: 11px;
+}
+
+.lupinha {
+    border-color: #E5E8EB;
+    border-radius: 11px;
+    border-width: 1px;
+    color: #00DAC0;
+}
+
+.lupinha2 {
+    border-color: #E5E8EB;
+    border-radius: 11px;
+    border-width: 1px;
+    color: black;
+}
+
+.botão1 {
+    background-color: #00594F;
+    color: white;
+    border-radius: 7px;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    
+}
+
+.botão2 {
+    background-color: #00E6CB;
+    color: #5A5A5A;
+    border-radius: 7px;
+    height: 40px;
+    width: 128px;
+    text-align: center;
+}
+
+.botão1:hover {
+    color: rgb(224, 224, 224);
+    background-color: #014e45;
+}
+
+.botão2:hover {
+    background-color: #00c2ab;
+    color: #464545;
+}
+
+.dropstart .dropdown-menu[data-bs-popper] {
+    top: 50px;
+    right: 100%;
+    left: auto;
+    margin-top: 0;
+    margin-right: -3.875rem;
+}
+
+.menuburg {
+    margin-right: 15px;
+}
+
+/* MENU */
+
+/* DIFERENÇAS */
+
+.textod {
+    color: black;
+}
+
+.bola1 {
+    background-color: #DFDFDF;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.cont {
+    height: 103px;
+    width: 103px;
+    margin-top: 26px;
+    margin-left: 33px;
+}
+
+.texto1 {
+    color: black;
+}
+
+.bola2 {
+    background-color: #DFDFDF;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.cart {
+    height: 103px;
+    width: 103px;
+    margin-top: 25px;
+    margin-left: 24px;
+}
+
+.bola3 {
+    background-color: #DFDFDF;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.cale {
+    height: 103px;
+    width: 103px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.bola4 {
+    background-color: #DFDFDF;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.din {
+    height: 103px;
+    width: 103px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.diferenciais {
+    background-color: #FAFAFA;
+    width: 1519px;
+    height: 530px;
+}
+
+.apaga {
+    color: #FAFAFA;
+}
+
+/* DIFERENÇAS */
+
+/* BANNER */
+
+.texto1c {
+    color: #00DAC0;
+    width: 509px;
+    height: 168px;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: left;
+}
+
+.texto12c {
+    color: #CECECE;
+    width: 500px;
+    height: 69px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.botoesi {
+    margin-right: 790px;
+    margin-top: 25px;
+}
+
+.botão22 {
+    background-color: #00E6CB;
+    color: #5A5A5A;
+    border-radius: 7px;
+    height: 40px;
+    width: 128px;
+    text-align: center;
+}
+
+.botão22:hover {
+    background-color: #00c2ab;
+    color: #464545;
+}
+
+.botão12 {
+    background-color: #00594F;
+    color: white;
+    border-radius: 7px;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.botão12:hover {
+    color: rgb(224, 224, 224);
+    background-color: #014e45;
+}
+
+/* BANNER */
+
+/* AVALIAÇÕES */
+
+.avaliacoes {
+    width: 1519px;
+    height: 533px;
+    background-color: #00A692;
+}
+
+.av1 {
+    width: 330px;
+    height: 280px;
+    background-color: #FAFAFA;
+    margin-left: 100px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.av2 {
+    width: 330px;
+    height: 280px;
+    background-color: #FAFAFA;
+    margin-left: 26px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-right: 26px;
+}
+
+.av3 {
+    width: 330px;
+    height: 280px;
+    background-color: #FAFAFA;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-right: 100px;
+}
+
+.toper {
+    margin-top: 70px;
+}
+
+.colorir {
+    background-color: #00A692;
+}
+
+.avaliaqui {
+    width: 60px;
+    height: 60px;
+    color: #004038;
+    margin-top: -60px;
+    margin-left: 260px;
+}
+
+.tav1 {
+    color: black;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.fotosa {
+    width: 123px;
+    height: 123px;
+    margin-left: 5px;
+}
+
+.fala1 {
+    margin-top: -118px;
+    margin-left: 155px;
+    color: #009987;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.dest {
+    color: #00594F;
+}
+
+.dest2 {
+    color: #00594F;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: 3px;
+}
+
+.fala2 {
+    margin-top: -118px;
+    margin-left: 155px;
+    color: #009987;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.dest22 {
+    color: #00594F;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: 8px;
+}
+
+.fala3 {
+    margin-top: -118px;
+    margin-left: 155px;
+    color: #009987;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.dest23 {
+    color: #00594F;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: 25px;
+}
+
+.dest24 {
+    color: #00594F;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: 4px;
+}
+
+.botava {
+    border: 2px solid #FFFFFF;
+    color: white;
+    border-radius: 0;
+    width: 286px;
+    height: 44px;
+    margin-left: 500px;
+    margin-top: 13px;
+}
+
+.botava:hover {
+    border: 2px solid #FFFFFF;
+    color: white;
+    border-radius: 0;
+    width: 286px;
+    height: 44px;
+    margin-left: 500px;
+    margin-top: 13px;
+}
+
+.dropstart .dropdown-toggle::before {
+    content: none;
+}
+
+.notinha {
+    margin-top: -50px;
+    margin-left: 275px;
+    color: #FAFAFA;
+    margin-bottom: 25px;
+}
+
+.prox1, .previa1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+.previa1 {
+    left: -100px;
+}
+
+.prox1 {
+    right: -100px;
+}
+
+/* AVALIAÇÕES */
+
+/* PACOTES */
+
+.pacots {
+    background-color: #00E6CB;
+    width: 1519px;
+    height: 960px;
+}
+
+.subt {
+    color: black;
+}
+
+.bandeiras {
+    margin-left: 630px;
+    width: 180px;
+}
+
+.mais {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.pac1 {
+    width: 300px;
+    height: 600px;
+    margin-left: 208px;
+    margin-top: 40px;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.pac2 {
+    width: 300px;
+    height: 600px;
+    margin-right: 15px;
+    margin-top: 40px;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+}
+
+.pac3 {
+    width: 300px;
+    height: 600px;
+    margin-top: 40px;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+}
+
+.promo1 {
+    background-color: #009987;
+    border-radius: 5px;
+    margin-top: 17px;
+    width: 250.32px;
+    height: 26.18px;
+}
+
+.tpromo1 {
+    color: #FFFFFF;
+}
+
+.tipac1 {
+    color: black;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.tspac1 {
+    color: black;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 18px;
+    line-height: 20px;
+    width: 268px;
+    height: 46.35px;
+}
+
+.traco {
+    border-top: 3px solid #C5C5C5;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.dentrodp {
+    margin-left: 12px;
+}
+
+.dentrodp2 {
+    margin-top: 6px;
+    margin-left: 12px;
+}
+
+.segundop {
+    margin-left: 35px;
+}
+
+
+.adq {
+    width: 224px;
+    height: 53.77px;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 165px;
+    margin-left: 25px;
+}
+
+.adq2 {
+    width: 224px;
+    height: 53.77px;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 103px;
+    margin-left: 25px;
+}
+
+.adq3 {
+    width: 224px;
+    height: 53.77px;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.adq4 {
+    width: 224px;
+    height: 53.77px;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 63px;
+    margin-left: 25px;
+}
+
+.adq5 {
+    width: 224px;
+    height: 53.77px;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 135px;
+    margin-left: 25px;
+}
+
+.adq6 {
+    width: 224px;
+    height: 53.77px;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 88px;
+    margin-left: 25px;
+}
+
+/* PACOTES */
+
+/* FOOTER */
+
+.final {
+    width: 1519px;
+    background-color: black;
+}
+
+.logol {
+    width: 100px;
+}
+
+.titulo {
+    color: white;
+}
+
+.con {
+    color: #7c7c7c;
+}
+
+.con:hover {
+    color: #00E6CB;
+}
+
+.divsor {
+    border-top: 3px solid #C5C5C5;
+    transform: rotate(90deg);
+    width: 136px;
+    margin-bottom: 70px;
+    margin-right: 00px;
+}
+
+.down1 {
+    width: 125px;
+}
+
+.down2 {
+    width: 130px;
+}
+
+.down3 {
+    margin-left: 5px;
+    color: #FAFAFA;
+}
+
+.down3:hover {
+    margin-left: 5px;
+    color: #00E6CB;
+}
+
+.down4 {
+    margin-left: 5px;
+    color: #FAFAFA;
+}
+
+.down4:hover {
+    margin-left: 5px;
+    color: #00E6CB;
+}
+
+.down5 {
+    color: #FAFAFA;
+}
+
+.down5:hover {
+    color: #00E6CB;
+}
+
+.redes {
+    margin-top: 110px;
+    margin-right: -287px;
+}
+
+.lojas {
+    margin-right: -240px;
+}
+
+.teste {
+    height: 300px;
+}
+
+/* FOOTER */

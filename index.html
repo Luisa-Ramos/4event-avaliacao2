@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4EVENT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+      <!-- MENU COMEÇO -->
+
+      <nav class="navbar navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./images/Logo 4event2.png" alt="" width="40" height="40">
+          </a>
+          <form class="mx-auto col-6">
+
+            <div class="input-group">
+              <span class="lupinha input-group-text bg-white" id="basic-addon1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 
+                  1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                </svg>
+              </span>
+              <input class="procura form-control" type="search" placeholder="Procure eventos, empreededores, clientes, etc..." aria-label="Search">
+              <span class="lupinha2 input-group-text bg-white" id="basic-addon3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt loc" viewBox="0 0 16 16">
+                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 
+                  1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 
+                  16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+              </span>
+            </div>
+            
+            <div class="container">
+              <div class="row position-absolute top-50 end-0 translate-middle-y">
+                <div class="col">
+                  <button type="button" class="botão1 btn me-1 fw-bold">ENTRAR</button>
+                </div>
+                <div class="col me-5">
+                  <button type="button" class="botão2 btn me-5 fw-bold">CADASTRAR</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="dropdown dropstart menuburg position-absolute top-50 end-0 translate-middle-y">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+                </svg>
+              </button>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><button class="dropdown-item" type="button">Meus eventos</button></li>
+                <li><button class="dropdown-item" type="button">Meus cupons</button></li>
+                <li><button class="dropdown-item" type="button">Minha agenda</button></li>
+              </ul>
+
+            </div>
+
+            </div>
+
+          </form>
+          
+        </div>
+      </nav>
+
+       <!-- MENU FINAL -->
+
+
+      <!-- BANNER COMEÇO -->
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/FESTAreal.jpg" class="d-block w-100 imagemm" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="texto1c text-left">Faça bons negócios, <br>
+                deixe que cuidamos do <br>
+                resto pra você</h5>
+              <p class="texto12c text-left">4event é um sistema que auxilia empreendedores do ramo de <br>
+                eventos (espaço de festa, decoradores, fotógrafos, serviço de <br>
+                buffet) na organização de demandas junto a clientes.</p>
+                <p class="botoesi"><a class="botão12 btn fw-bold" href="#">ENTRAR</a><a class="botão22 btn fw-bold" href="#">CADASTRAR</a></p>
+            </div>
+          </div>
+      </div>
+
+      <!-- BANNER FINAL -->
+
+      <!-- DIFERENÇAS COMEÇO -->
+
+      <div class="diferenciais">
+
+          <div>
+            <p class="apaga">.</p>
+            <p class="textod fs-1 fw-bold text-center mt-5">Por que fazer eventos conosco?</p>
+          </div>
+
+          <div class="container d-flex justify-content-center">
+            <div class="row">
+              <div class="col">
+                <div class="bola1 mt-5">
+                  <img class="cont" src="./images/CONTRATO.png" alt="" srcset="">
+                  <p class="texto1 fs-6 fw-bold text-center mt-5">Contrato 100% digital</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="bola2 mt-5 ms-4 me-4">
+                  <img class="cart" src="./images/CARTAO.png" alt="" srcset="">
+                  <p class="texto1 fs-6 fw-bold text-center mt-5">Pagamento por cartão de crédito ou parcelado no boleto</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="bola3 mt-5 ms-4 me-4">
+                  <img class="cale" src="./images/CALENDAR.png" alt="" srcset="">
+                  <p class="texto1 fs-6 fw-bold text-center mt-5">Agenda interna</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="bola4 mt-5">
+                  <img class="din" src="./images/DINHEIRO.png" alt="" srcset="">
+                  <p class="texto1 fs-6 fw-bold text-center mt-5">Controle financeiro rápido e fácil</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+
+      <!-- DIFERENÇAS FINAL -->
+
+      <!-- AVALIAÇÕES COMEÇO -->
+
+      <div class="avaliacoes">
+        <div class="colorir">.</div>
+        <div class="container toper">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner teste">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col av1">
+                        <h5 class="tav1 fs-4 fw-bold">Festa de casamento</h5>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill avaliaqui" viewBox="0 0 16 16">
+                          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 
+                          0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <h5 class="notinha fs-5 fw-bold">4,5</h5>
+                        <img class="fotosa rounded-circle" src="./images/DAMIE.jpg" alt="" srcset="">
+                        <div class="fala1 fw-bold">
+                          Definitivamente foi a <br>
+                          nossa melhor escolha <br>
+                          ter feito nossa festa <br>
+                          de casamento com a <div class="dest">4EVENT!</div>
+                          Com certeza iremos indicar!
+                        </div>
+                        <div class="dest2 fw-bold">Jamie & Dani</div>
+                  </div>
+                  <div class="col av2">
+                        <h5 class="tav1 fs-4 fw-bold">Festa de aniversário</h5>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill avaliaqui" viewBox="0 0 16 16">
+                          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 
+                          0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <h5 class="notinha fs-5 fw-bold">5,0</h5>
+                        <img class="fotosa rounded-circle" src="./images/TOM.jpg" alt="" srcset="">
+                        <div class="fala2 fw-bold">
+                          Minha festa temática sem o pacote de aniversário <br>
+                          da 4EVENT não teria sido tão incrível! <br>
+                          Muito obrigado pela incrível experiência!
+                        </div>
+                        <div class="dest22 fw-bold">Peter Parker</div>
+                  </div>
+                  <div class="col av3">
+                        <h5 class="tav1 fs-4 fw-bold">Festa de 15 anos</h5>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill avaliaqui" viewBox="0 0 16 16">
+                          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 
+                          0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <h5 class="notinha fs-5 fw-bold">4,8</h5>
+                        <img class="fotosa rounded-circle" src="./images/YUNA.jpg" alt="" srcset="">
+                        <div class="fala3 fw-bold">
+                          Minha festa de 15 anos foi
+                          perfeita graças a <div class="dest">4EVENT!</div>
+                          Teve exatamente tudo
+                          que me foi prometido!
+                          Obrigada pela dedicação!
+                        </div>
+                        <div class="dest23 fw-bold">Shin Yuna</div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item teste">
+                <div class="row">
+                  <div class="col av1">
+                        <h5 class="tav1 fs-4 fw-bold">Festa de formatura</h5>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill avaliaqui" viewBox="0 0 16 16">
+                          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 
+                          0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <h5 class="notinha fs-5 fw-bold">5,0</h5>
+                        <img class="fotosa rounded-circle" src="./images/RBD.jpg" alt="" srcset="">
+                        <div class="fala1 fw-bold">
+                          Nossa formatura foi <br>
+                          a mais divertida e <br>
+                          memorável graças a  <div class="dest">4EVENT!</div>
+                          Nossa escola com certeza vai continuar contando com vocês
+                        </div>
+                        <div class="dest2 fw-bold ms-3">Aluna EWS</div>
+                  </div>
+                  <div class="col av2">
+                        <h5 class="tav1 fs-4 fw-bold">Festa de aniversário</h5>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill avaliaqui" viewBox="0 0 16 16">
+                          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 
+                          0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <h5 class="notinha fs-5 fw-bold">4,8</h5>
+                        <img class="fotosa rounded-circle" src="./images/JANEMATEO.png" alt="" srcset="">
+                        <div class="fala2 fw-bold">
+                          Minha festa temática sem o pacote de aniversário <br>
+                          da 4EVENT não teria sido tão incrível! <br>
+                          Muito obrigado pela incrível experiência!
+                        </div>
+                        <div class="dest22 fw-bold ms-5">Pais de</div>
+                        <div class="dest22 fw-bold">Mateo e Nathan</div>
+                  </div>
+                  <div class="col av3">
+                        <h5 class="tav1 fs-4 fw-bold">Chá de bebê</h5>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill avaliaqui" viewBox="0 0 16 16">
+                          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 
+                          0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <h5 class="notinha fs-5 fw-bold">5,0</h5>
+                        <img class="fotosa rounded-circle" src="./images/CASSIE.jpg" alt="" srcset="">
+                        <div class="fala3 fw-bold">
+                          Mesmo no meio de uma
+                          pandemia, a <div class="dest">4EVENT</div> não decepcionou!
+                          Obrigada por toda dedicação e ajuda necessária.
+                        </div>
+                        <div class="dest24 fw-bold">Cassie Howard</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev previa1" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-chevron-left previa12" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+              </svg>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next prox1" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-chevron-right prox12" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="d-grid gap-2 col-3 mt-4">
+            <button type="button" class="btn botava fw-bold">FAÇA A SUA AVALIAÇÃO</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- AVALIAÇÕES FINAL -->
+
+      <!-- PACOTES COMEÇO -->
+      
+      <div class="pacots">
+        <div>
+          <p class="apaga">.</p>
+          <p class="textod fs-1 fw-bold text-center mt-5">Escolha um pacote</p>
+          <p class="subt fs-5 text-center">Selecione o pacote que faz mais sentido pra você.</p>
+          <div><img class="bandeiras" src="./images/bandeira-dos-cartoes-de-credito.png" alt="" srcset=""><p class="mais fw-normal btn text-center">+ outros</p></div>
+          <div id="carouselPlanos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                  <div class="row ppacs">
+                    <div class="col pac1 col-6">
+      
+                      <div class="promo1 mx-auto">
+                        <p class="tpromo1 text-center fw-bold">1 mês de eventos grátis</p>
+                      </div>
+                      <p class="tipac1 text-start fw-bold">Festa de Casamento</p>
+                      <p class="tspac1 text-start fw-normal">R$ 20.000,00 em até 10x sem juros ou R$ 18.000,00 à vista</p>
+                      <div class="traco mx-auto"></div>
+                      <div class="dentrodp">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Bufê selecionado pelo casal</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Decoração</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Fotógrafo e filmagem</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Cabine de fotos</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">DJ</span>
+                      </div>
+                      <button type="button" class="btn btn-dark btn-lg adq fw-bold rounded-pill">ADQUIRIR</button>
+                      
+                    </div>
+                    <div class="col pac2 col-6">
+                      <div class="promo1 mx-auto">
+                        <p class="tpromo1 text-center fw-bold">3 meses de eventos grátis</p>
+                      </div>
+                      <p class="tipac1 text-start fw-bold">Festa de Formatura</p>
+                      <p class="tspac1 text-start fw-normal">R$ 15.000,00 em até 10x sem juros ou R$ 13.000,00 à vista</p>
+                      <div class="traco mx-auto"></div>
+                      <div class="dentrodp">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Bufê selecionado pelos</span>
+                        <span class="d-inline-block segundop">formandos</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Decoração do tema escolhido</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Fotógrafo e filmagem</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Cabine de fotos</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">DJ</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Karaokê</span>
+                      </div>
+                      <button type="button" class="btn btn-dark btn-lg adq2 fw-bold rounded-pill">ADQUIRIR</button>
+                    </div>
+      
+                    <div class="col pac3 col-6">
+                      <div class="promo1 mx-auto">
+                        <p class="tpromo1 text-center fw-bold">25% de desconto por 24h</p>
+                      </div>
+                      <p class="tipac1 text-start fw-bold">Festa de 15 anos</p>
+                      <p class="tspac1 text-start fw-normal">R$ 16.000,00 em até 10x sem juros ou R$ 14.000,00 à vista</p>
+                      <div class="traco mx-auto"></div>
+                      <div class="dentrodp">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Bufê selecionado pela</span>
+                        <span class="d-inline-block segundop">família</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Figurino e maquiagem para</span>
+                        <span class="d-inline-block segundop">aniversariante</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Decoração do tema escolhido</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Fotógrafo e filmagem</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Cabine de fotos</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Editor de vídeo</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">DJ</span>
+                      </div>
+                      <button type="button" class="btn btn-dark btn-lg adq3 fw-bold rounded-pill">ADQUIRIR</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="row ppacs">
+                    <div class="col pac1 col-6">
+      
+                      <div class="promo1 mx-auto">
+                        <p class="tpromo1 text-center fw-bold">50% de desconto por 48h</p>
+                      </div>
+                      <p class="tipac1 text-start fw-bold">Festa de Aniversário</p>
+                      <p class="tspac1 text-start fw-normal">R$ 15.000,00 em até 10x sem juros ou R$ 13.000,00 à vista</p>
+                      <div class="traco mx-auto"></div>
+                      <div class="dentrodp">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Bufê selecionado pela</span>
+                        <span class="d-inline-block segundop">família/aniversariante</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Decoração do tema escolhido</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Fotógrafo e filmagem</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Cabine de fotos</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">DJ</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Karaokê</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Animador (es)</span>
+                      </div>
+                      <button type="button" class="btn btn-dark btn-lg adq4 fw-bold rounded-pill">ADQUIRIR</button>
+                      
+                    </div>
+                    <div class="col pac2 col-6">
+                      <div class="promo1 mx-auto">
+                        <p class="tpromo1 text-center fw-bold">4 meses de eventos grátis</p>
+                      </div>
+                      <p class="tipac1 text-start fw-bold">Chá de bebê</p>
+                      <p class="tspac1 text-start fw-normal">R$ 13.000,00 em até 10x sem juros ou R$ 10.000,00 à vista</p>
+                      <div class="traco mx-auto"></div>
+                      <div class="dentrodp">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Bufê selecionado pelo (s)</span>
+                        <span class="d-inline-block segundop">responsável (eis)</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Decoração do tema escolhido</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Fotógrafo e filmagem</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Brinquedos e jogos</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Personalizável</span>
+                      </div>
+                      <button type="button" class="btn btn-dark btn-lg adq5 fw-bold rounded-pill">ADQUIRIR</button>
+                    </div>
+      
+                    <div class="col pac3 col-6">
+                      <div class="promo1 mx-auto">
+                        <p class="tpromo1 text-center fw-bold">30% de desconto por 24h</p>
+                      </div>
+                      <p class="tipac1 text-start fw-bold">Personalizável</p>
+                      <p class="tspac1 text-start fw-normal">Preço dependendo dos adicionais em até 10x</p>
+                      <div class="traco mx-auto"></div>
+                      <div class="dentrodp">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Bufê</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Figurino e maquiagem</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Decoração</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Fotógrafo e filmagem</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Cabine de fotos</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">Editor de vídeo</span>
+                      </div>
+                      <div class="dentrodp2">
+                        <span class="d-inline-block float-right">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+                        </span>
+                        <span class="d-inline-block">ou MAIS</span>
+                      </div>
+                      <button type="button" class="btn btn-dark btn-lg adq6 fw-bold rounded-pill">ADQUIRIR</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPlanos" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPlanos" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER COMEÇO -->
+
+      <div class="container final">
+        <footer class="row row-cols-5 py-5 my-5">
+          <div class="col">
+            <a href="/" class="d-flex align-items-center link-dark text-decoration-none">
+              <img class="logol" src="./images/4event.png" alt="" srcset="">
+            </a>
+            <p class="text-muted mt-3">© 2021</p>
+          </div>
+          <div class="col">
+            <h5 class="titulo">Contato</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 con">Telefone: xxxx-xxxx</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 con">Celular: xxxxx-xxxx</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 con">E-mail: 4event@gmail.com</a></li>
+            </ul>
+          </div>
+
+          <div class="col">
+
+          </div>
+      
+          <div class="col ultim justify-content-end">
+            <div class="d-flex flex-row-reverse bd-highlight lojas">
+              <div class="p-2 bd-highlight">
+                <a href="/" class="d-flex align-items-center link-dark text-decoration-none">
+                  <img class="down1" src="./images/SeekPng.com_apple-app-store-logo_2228504.png" alt="" srcset="">
+                </a>
+              </div>
+              <div class="p-2 bd-highlight">
+                <a href="/" class="d-flex align-items-center link-dark text-decoration-none">
+                  <img class="down2" src="./images/pngwing.com (3).png" alt="" srcset="">
+                </a>
+              </div>
+              <div class="redes d-flex flex-row-reverse bd-highlight">
+                <div class="p-2 bd-highlight">
+                  <a href="/" class="d-flex align-items-center link-dark text-decoration-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook down3" viewBox="0 0 16 16">
+                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>
+                  </a>
+                </div>
+                <div class="p-2 bd-highlight">
+                  <a href="/" class="d-flex align-items-center link-dark text-decoration-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram down4" viewBox="0 0 16 16">
+                      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                    </svg>
+                  </a>
+                </div>
+                <div class="p-2 bd-highlight">
+                  <a href="/" class="d-flex align-items-center link-dark text-decoration-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-twitter down5" viewBox="0 0 16 16">
+                      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+      <!-- FOOTER FINAL -->
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
